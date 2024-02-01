@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Course</title>
+</head>
+<style>
+    table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+</style>
+<body>
+<div class="responsive">
+    <header class="header">
+            <img src="logo.JPG" alt="logo image" class="logo">
+        <table style="width: 30%;">
+            <tr>
+             <th><a href="#">Home</a></th>
+             <th><a href="#">My Profile</a></th>
+             <th><a href="#">Message Us</a></th>
+        </tr>
+        </table>
+    </header>
+    
+    <br/>
+    <div class="judul">
+        <h1>Top Rated E-Groceries Shop In Indonesia</h1>
+        <p>Every Day With Best Ingredients</p>
+    </div>
+       
+    <br/>
+    
+    <div class="slider">
+        <div class="slides"> 
+            <img class="slide" src="Slide-1.jpg" alt="image #1">
+            <img class="slide" src="Slide-2.jpg" alt="image #2">
+            <img class="slide" src="Slide-3.jpg" alt="image #3">
+        </div>
+        <button class="prev" onclick="prevslide()">Previous</button>
+        <button class="next" onclick="nextslide()">Next</button>
+    </div>
+
+    <br/>
+
+    <div class="notes">
+        <p>*Beli sayur buah yang fresh disini*</p>
+    </div>
+    <div class="deskripsi1">
+        <div class="round">
+            <i class="ri-user-3-fill deskripsi__icon"></i>
+        </div>
+        <div class="prof__name">
+            <h3>Farisyi Al Maqdis</h3>
+            <p>Digital Marketer</p>
+        </div>
+    </div>
+
+
+    <div class="text">
+        <h4>Use this space to provide users with more information
+            about your offer. Consider it a follow-up to your headline
+            and explain the benefits of your service of product
+        </h4>
+    </div>
+
+<div class="contend">
+    <div class="content">
+        <div class="bulat">
+            <h1>1</h1>
+        </div>
+        <div class="bulat">
+            <h1>2</h1>
+        </div>
+        <div class="bulat">
+            <h1>3</h1>
+        </div>
+    </div>
+
+    <div class="contents">
+            <li>Your first feature, written in the form of a benefit statement</li>
+            <li>Your second feature, written in the form of a benefit statement</li>
+            <li>Your third feature written, in the form of a benefit statement</li>
+        </div>    
+    </div>
+</div>
+<div class="form__login">
+    <div class="forms">
+        <div class="form__dec">
+        <h1>Contact US</h1>
+        <p>Sales akan menghubungi anda 1x24 jam</p>
+        </div>
+            <div class="form">
+                <label for="name">Your Name:</label><br>
+                <input id="input-name" name="name" type="text" required="true" placeholder="Name">
+                <p id="name-error" class="error-message"></p>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input id="input-email" name="email" type="email" required="true" placeholder="Email">
+                <p id="email-error" class="error-message"></p>
+            </div>
+
+            <div>
+                <label for="interested">What are you interested for:</label><br>
+                <select name="interested" id="interested">
+                    <optgroup>
+                        <option value="Teknik-Informatika">Teknik Informatika</option>
+                        <option value="Sistem-Komputer">Sistem Komputer</option>
+                    </optgroup>
+                </select>
+            </div>
+            <button id="send">Submit</button>
+        </div>
+</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
